@@ -15,6 +15,7 @@ a{
     font-family: 'Barlow';
     font-weight: 500;
     line-height: 65px;
+    transition: 0.3s all ease-in-out;
 }
 h1,
 p{
@@ -34,6 +35,7 @@ button{
     height: 55px;
     border-radius: 25px;
     font-weight: 600;
+    transition: 0.3s ease-out;
 
 }
 .logo{
@@ -126,11 +128,9 @@ button{
     filter: blur(24px);
 }
 a:hover{
-    transition: 0.3s ease-out;
     color: #ffffff;
     border-bottom: 1.2px solid rgb(255 0 0 / 72%);
 }
 button:hover{
-    transition: 0.3s ease-out;
     background-color: #B5B5B5;
 }
