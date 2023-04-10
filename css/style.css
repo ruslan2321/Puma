@@ -90,9 +90,11 @@ button{
 .side{
     position: fixed;
     width: 67px;
-    height: 47rem;
+    height: 48rem;
     left: -9px;
     top: -9px;
+    margin: 0;
+    border-top: none;
     background-color: #D4D4D4;
 }
 .side p{
